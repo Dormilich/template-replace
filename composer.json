@@ -1,0 +1,22 @@
+{
+    "name": "dormilich/template-replace",
+    "description": "Wrapper class around str_replace() to ease handling of string replacements in small templates.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bertold von Dormilich",
+            "email": "Dormilich@netscape.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dormilich\\": "src/Dormilich/"
+        }
+    }
+}
