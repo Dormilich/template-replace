@@ -2,20 +2,6 @@
 
 namespace Dormilich\Utilities;
 
-/**
- * Assigning placeholder values:
- * 
- * $obj['key'] = 'value';
- *    - 'key' must be a case-insensitive match of a placeholder key found in the 
- *      template, otherwise an exception is thrown.
- * 
- * $obj->set('key', 'value');
- *    - chainable
- *    - catches errors
- * 
- * $obj->render(['key' => 'value']);
- *    - catches errors
- */
 class TemplateReplace implements \ArrayAccess
 {
     /**
